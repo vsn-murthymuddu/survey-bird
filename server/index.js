@@ -1,11 +1,11 @@
 /**** Import Express ****/
-const express = require('express');
+const express = require("express")
 
 /**** Express Application Object ****/
 const expressApplication = express();
 
 expressApplication.get('/', (request, response) => {
-    response.send({hi: 'there'});
+    response.send({hi: 'there for'});
 });
 
 /**** Set PORT from process.env or 5000 ****/
